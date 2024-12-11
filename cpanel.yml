@@ -1,4 +1,5 @@
-deployment:
-  tasks:
-    - export DEPLOYPATH=//home/fundacionfe/bingo.fundacionfederico.com
-    - /bin/cp -R images $DEPLOYPATH
+---
+  deployment:
+    tasks:
+      - export DEPLOYPATH=//home/fundacionfe/bingo.fundacionfederico.com
+      - /bin/cp -R images $DEPLOYPATH
